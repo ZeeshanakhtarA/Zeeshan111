@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        #div{
+            /* border: 2px solid black; */
+            width: 1100px;
+            height: 600px;
+            margin: auto;
+            
+        }
+        header img{
+            position: absolute;
+        }
+        header{
+            padding: 20px;
+        }
+        nav ol{
+            display: flex;
+            list-style: none;
+            justify-content: end;
+            cursor: pointer;
+          
+        }
+        nav ol li{
+            padding: 10px;
+
+        }
+        #box{
+            height: 400px;
+            width: 290px;
+            background-color: rgb(12, 12, 12);
+            margin-left: 68%;
+            /* display: block; */
+            margin-top: -39%;
+            padding: 10px;
+        }
+        #img{
+            width: 65%;
+            padding: 15px;
+        }
+        /* #h{
+            position: absolute;
+            margin-left: 10px;
+            margin-top: -7%;
+        } */
+        .peragaraf{
+            display: block;
+            margin-top: 10px;
+            padding: 0;
+            margin-left: 10px;
+        }
+        #BTN{
+            position: absolute;
+            margin-top: 15px;
+            background-color: rgb(236, 92, 92);
+            padding: 9px 23px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        #box h1{
+            padding: 15px;
+            color:  goldenrod;
+                        
+        }
+        #box1 {
+            position: relative;
+            top: 8%;
+            color: wheat;
+            margin-left: 14px;
+            border-bottom:  1px solid  white;
+            padding: 5px;
+        }
+
+        #box3{
+            position: relative;
+            top: 26%;
+            margin-left: 14px;
+            color: wheat;
+            padding: 8px;
+
+        }
+        #box2{
+            position: relative;
+            top: 21%;
+            margin-left: 14px;
+            color: wheat;
+            border-bottom:  1px solid  white;
+            padding:8px ;
+            
+
+        }
+        #main-contenar{
+             display: flex;
+        }
+        #main-contenar img{
+            width: 80px;
+            margin-left: 10px;
+            margin-top: 100px;
+        }
+        .part1{
+            margin-left: 7vw;
+            margin-top: -5vw;
+            position: relative;
+
+        }
+        .part2{
+            margin-left: 7vw;
+            margin-top: -5vw;
+            position: relative;
+
+        }
+        .part3{
+            margin-left: 7vw;
+            margin-top: -5vw;
+            position: relative;
+
+        }
+        li{
+        }
+       
+        li:hover{
+            color: white;
+            background-color:red;
+        }
+        .child2{
+            display: none;
+            position: absolute;
+            
+      }
+        .child1:hover .child2{
+            display: block;
+            background-color:red;
+            margin-top: 10px;    
+            }
+        .child2:hover{
+            color: black;
+        }
+        .main-peragaraf{
+            display: flex;
+          }
+         .peragaraf { 
+            margin-left: 16vw;
+        }
+       
+       
+      
+
+    </style>
+</head>
+<body>
+    <div id="div">
+
+        <header>
+            <nav>
+                
+                <div>
+                    <img src="logo.svg" alt="">
+                </div>
+                <ol id="main-down">
+                    
+                    <div><img src="" alt=""></div>
+                    <li class="child1">Home
+                        <ol class="child2">
+                            <li>New</li>
+                            <li>Popular</li>
+                            <li>Trending</li>
+                            <li>Categories</li>
+
+                        </ol>
+
+                    </li>
+                    <li>New</li>
+                    <li>Popular</li>
+                    <li>Trending</li>
+                    <li>Categories</li>
+                </ol>
+            </nav>
+        </header>
+        <div>
+            <img id="img" src="image-web-3-desktop.jpg" alt="">
+        </div>
+          <div class="main-peragaraf">
+              <div class="hold">
+                  <h1>The Bright<br>Future of</br></h1>
+                  <h1>Web 3.0?</h1>
+              </div>
+              <div class="peragaraf">
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Lorem ipsum dolor</p>
+                  <button id="BTN">READ MORE</button>
+              </div>
+
+          </div>
+
+        <aside>
+            <div id="box">
+             <h1>New</h1>
+             <div id="box1">
+
+                 <h3>Hydrogen vs Electric Cars</h3>
+                 <span>Lorem ipsum dolor sit amet consectetur</span>
+             </div>
+             <div id="box2">
+                 <h3>The Downsides of Al Artistry</h3>
+                 <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi?</span>
+
+             </div>
+             <div id="box3">
+                 
+                <h3>Is VC Funding Drying Up?</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, aspernatur.</span>
+
+             </div>
+
+            </div>
+        </aside>
+        <div id="main-contenar">
+            <div>
+
+                <div id="main-menu">
+                    <img src="image-retro-pcs.jpg" alt="">
+                </div>
+                <div class="part1">
+                    <h3>Reviving Retro PCs</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, iste. </span>
+                </div>
+                
+            </div>
+            <div>
+
+                <div>
+                    <img src="image-top-laptops.jpg" alt="">
+                </div>
+                <div class="part2">
+                    <h3>Top 10 Laptops of 2022</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, iste. </span>
+                </div>
+                
+            </div>
+            <div>
+                
+                <div>
+                    <img src="image-gaming-growth.jpg" alt="">
+                </div>
+                <div class="part3">
+                    <h3>The Growth of Gaming</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, iste. </span>
+                </div>
+                
+            </div>
+
+            </div>
+
+    </div>
+  
+</body>
+</html>
